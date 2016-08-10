@@ -1,0 +1,11 @@
+<div>
+  <h3 className="dog-name">
+    {this.props.name}
+  </h3>
+
+  <h4 className={this.state.color} onClick={this.handleClick}>
+    <span className="dog-details">Breed: </span> {this.props.breed}
+      <br />
+    <span className="dog-details">Age: </span>{this.props.age}
+  </h4>
+</div>
